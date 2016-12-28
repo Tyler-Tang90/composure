@@ -1,0 +1,115 @@
+/*Shop banner*/
+.shop-banner { margin: 0 auto; width: 100%; height: 477px; background: #f9f9f9; position: relative;}
+.shop-banner .prv,.shop-banner .next { display: inline-block; width: 41px; height: 41px; position: absolute; z-index:99; opacity: .6; filter: alpha(opacity=60);}
+.shop-banner .prv { background: url(../img/icon.png) no-repeat -307px -240px; top:45%; left:10px;}
+.shop-banner .next { background: url(../img/icon.png) no-repeat -349px -240px; top:45%; right:10px;}
+.shop-banner .prv:hover,.shop-banner .next:hover{-moz-opacity: 1 !important; filter:alpha(opacity=100); opacity: 1; _-moz-opacity: 1;}
+.shop-banner .ban-cont { margin: 0 auto; width: 1200px; height: 477px; position: relative;}
+.shop-banner .ban-cont li { float: left; width: 100%; height: 477px; z-index: 88; position: absolute; top:0; left: 0;}
+.shop-banner .ban-cont li h3 { margin-top: 50px; font-size: 32px; color: #ff5842;}
+.shop-banner .ban-cont li h4 { width: 510px; font-size: 22px; color: #8a8a8a; border-bottom: 1px solid #e2e2e2; padding-bottom: 25px; margin: 10px 0 25px 0;}
+.shop-banner .ban-cont li .txt { display: block; width: 500px; line-height: 30px; font-size: 16px; color: #656565;}
+.shop-banner .ban-cont li .purchase { display: block; position: absolute; left: 0; bottom: 54px; width: 276px; height: 56px; font-size: 24px; color: #fff; background: #ff5842; text-align: center; line-height: 56px;}
+.shop-banner .ban-cont li .purchase a { font-size: 24px; color: #fff;}
+.shop-banner .ban-cont li .purchase i { display: inline-block; width: 21px; height: 21px; background: url(../img/icon.png) no-repeat -50px -143px; font-style: normal; margin-left: 10px; vertical-align: middle;}
+/*Shop join us*/
+.shop-join { margin: 0 auto; width: 100%; padding: 25px 0; background: #121212; line-height: 50px; font-size: 23px; color: #fff;}
+.shop-join .join-us { width: 172px; height: 50px; background: #1f1f1f; text-align: center; }
+.shop-join .join-txt { margin-left: 15px;}
+.shop-join .join-icon { display: inline-block; width: 22px; height: 22px; background: url(../img/icon.png) no-repeat -50px -179px; margin-top: 13px; cursor: pointer;}
+/*Shop Store Featured Items*/
+.shop-store { margin:0 auto;}
+.shop-store .title { width: 100%; height:41px; padding:20px 0; font-size:24px; color:#121212;}
+.shop-store .title .icon { display:inline-block; width:32px; height:32px; font-style:normal; vertical-align:middle; margin:4px 10px 0 0;}
+.shop-store .title .icon1 { background: url(../img/icon.png) no-repeat -160px -271px;}
+.shop-store .title .icon2 { background: url(../img/icon.png) no-repeat -160px -271px;}
+.shop-store .title .txt { display: inline-block; line-height: 41px;}
+.shop-store ul,.services .Items { margin: 0 0 0 -20px; padding: 0; list-style-type: none;}
+.shop-store ul li,.services .Items li { float: left; width: 281px; height: 366px; text-align: center; border: 2px solid #f8f8f8; margin-left: 20px;}
+.shop-store ul li { margin-bottom: 40px;}
+.services .Items li { margin-bottom: 20px;}
+.shop-store ul li:hover,.services .Items li:hover { border: 2px solid #ededed;}
+.shop-store ul li .pic,.services .Items li .pic { width: 281px; height: 266px; opacity: .7; filter: alpha(opacity=70);}
+.shop-store ul li .pic:hover,.services .Items li .pic:hover {-moz-opacity: 1 !important; filter:alpha(opacity=100); opacity: 1; _-moz-opacity: 1;}
+.shop-store ul li .texts,.services .Items li .texts {height: 100px; background: #f8f8f8;}
+.shop-store ul li .texts h3,.services .Items li .texts h3 { font-size: 16px; color: #1f1f1f; padding-top: 10px;}
+.shop-store ul li .texts .price,.services .Items li .texts .price { font-size: 16px; color: #ff5842; padding: 5px 0;}
+.shop-store ul li .texts a,.services .Items li .texts a { display: inline-block; width: 102px; height: 26px; background: #e6e6e6; text-align: center; line-height: 26px; color: #333;}
+.shop-store ul li .texts a:hover,.services .Items li .texts a:hover {color: #fff; background: #ff5842;}
+.shop-line { border-bottom: 1px solid #e6e6e6;}
+/*Services*/
+.services { margin:0 auto;}
+.services .title { width: 100%; height:41px; padding:30px 0; font-size:24px; color:#121212;}
+.services .title .icon { display:inline-block; width:32px; height:32px; font-style:normal; vertical-align:middle; margin:4px 10px 0 0;}
+.services .title .icon1 { background: url(../img/icon.png) no-repeat -194px -271px;}
+.services .title .icon2 { background: url(../img/icon.png) no-repeat -160px -271px;}
+.services .title .icon3 { background: url(../img/icon.png) no-repeat -228px -271px;}
+.services .title .icon4 { background: url(../img/icon.png) no-repeat -126px -270px;}
+.services .title .icon5 { background: url(../img/icon.png) no-repeat -263px -271px;}
+.services .title .txt { display: inline-block; line-height: 41px;}
+/*Our Services*/
+.services .our { margin:0 0 20px -30px; padding: 0; list-style-type: none;}
+.services .our li { float: left; width: 340px; height: 219px; border-top: 7px solid #ff5842; margin-left: 30px; padding: 23px 20px 0 20px; background: #f9f9f9; position: relative;}
+.services .our li h3 { font-size: 24px; color: #000;}
+.services .our li span {position: absolute; width: 48px; height: 48px; display: inline-block; top: 23px; right: 20px;}
+.services .our li span.icon1 { background: url(../img/icon.png) no-repeat -85px -312px;}
+.services .our li span.icon2 { background: url(../img/icon.png) no-repeat -144px -312px;}
+.services .our li span.icon3 { background: url(../img/icon.png) no-repeat -202px -312px;}
+.services .our li .txt { font-size: 16px; color: #555; padding: 35px 0 30px 0;}
+.services .our li .more { display: inline-block; font-size: 16px; color: #0ea8ff; line-height: 30px; position: relative;}
+.services .our li .more i { display: inline-block; width: 15px; height: 15px; background: url(../img/icon.png) no-repeat -53px -228px; vertical-align: middle; position: absolute; right: -25px; top: 7px;}
+/*Recent Projects*/
+.services .projects { margin:0 0 20px -10px; padding: 0 0 20px 0; list-style-type: none; background: url(../img/line.jpg) no-repeat bottom right;}
+.services .projects li { float: left; width: 595px; height: 240px; margin-left: 10px; position: relative; margin-bottom: 10px;}
+.services .projects li img { width: 595px; height: 240px; opacity: .7; filter: alpha(opacity=70);}
+.services .projects li img:hover {-moz-opacity: 1 !important; filter:alpha(opacity=100); opacity: 1; _-moz-opacity: 1;}
+.services .projects li .text { position: absolute; background: rgba(28,28,28,.8); background: #1C1C1C\9; filter:alpha(opacity=80); width: 100%; height:75px; overflow:hidden; left:0; bottom:0; color: #fff;}
+.services .projects li .text h3 { padding: 15px 20px 0 20px; font-size: 22px;}
+.services .projects li .text .date { padding: 0 20px; font-size: 12px; margin-bottom: 20px;}
+.services .projects li .text .cont { padding: 0 20px; font-size: 14px;}
+/*Recent Posts*/
+.posts { margin: 0 0 20px 0; padding: 0;}
+.posts .prv,.services .posts .next { display: inline-block; width: 41px; height: 170px; opacity: .7; filter: alpha(opacity=70);}
+.posts .prv { background: url(../img/icon.png) no-repeat -311px -381px;}
+.posts .next { background: url(../img/icon.png) no-repeat -353px -381px;}
+.posts .prv:hover,.services .posts .next:hover {-moz-opacity: 1 !important; filter:alpha(opacity=100); opacity: 1; _-moz-opacity: 1;}
+.posts_nav{ position:relative; width:1098px;  height:170px; overflow:hidden}
+.posts_w { position:absolute; width: 1098px}
+.posts_array { padding: 0 10px; width:1098px; float:left; height:170px;}
+.posts_array .pic { width: 200px; height: 170px; opacity: .7; filter: alpha(opacity=70);}
+.posts_array .pic:hover {-moz-opacity: 1 !important; filter:alpha(opacity=100); opacity: 1; _-moz-opacity: 1;}
+.posts_array .p-right { width: 880px;}
+.posts_array .p-right h3 a { font-size: 20px; color: #000;}
+.posts_array .p-right h3 a:hover { color: #ff5842;}
+.posts_array .p-right .date { font-size: 12px; color: #9f9f9f;}
+.posts_array .p-right .date span { color: #ff5842;}
+.posts_array .p-right .txt { margin-top:  20px; height: 61px;font-size: 14px; color: #000;}
+.posts_array .p-right .detil { display: block;; width: 180px; height: 45px; text-align: center; font-size: 16px; color: #fff; background: #ff5842; line-height: 45px;}
+/*Client Testimonials*/
+.services .client { margin: 0; padding: 0; list-style-type: none; position: relative;}
+.services .client li { float: left; width: 253px; height: 136px; margin-right: 15px;}
+.services .client li .text { width: 231px; height: 85px; padding: 11px 11px 0 11px; background: url(../img/icon.png) -55px -381px; color: #000; margin-bottom: 10px;}
+.services .client li .c-bottom { width: 100%; height: 30px;}
+.services .client li .c-bottom .pic { width: 30px; height: 30px;}
+.services .client li .c-bottom .c-right { margin-left: 5px;}
+.services .client li .c-bottom .c-right h3 a{ color: #000;}
+.services .client li .c-bottom .c-right h3 a:hover { color: #ff5842;}
+.services .client li .c-bottom .c-right p { color: #9f9f9f;}
+.services .client li.twitter {position: absolute; width: 350px; height: 189px; padding: 20px 20px 0 20px; right: -15px; top: -73px; background: #57bae8; text-align: center;}
+.services .client li.twitter .ico { display: inline-block; width: 48px; height: 33px; background: url(../img/icon.png) no-repeat -344px -338px;}
+.services .client li.twitter .txt { font-size: 16px; color: #fff; margin: 30px 0 20px 0;}
+.services .client li.twitter .date { font-size: 14px; color: #c7edfe; line-height: 25px;}
+.services .client li.twitter .t-name { font-size: 18px; color: #fff; text-align: left;}
+/*Contact us banner*/
+.banner { width: 100%; height: 512px; border-top: 5px solid #efefef;}
+.banner img { height: 100%;}
+/*Contact us*/
+.contact { margin:0 auto;}
+.contact .title { width: 100%; height:41px; padding:20px 0; font-size:24px; color:#121212;}
+.contact .title .icon { display:inline-block; width:32px; height:32px; background: url(../img/icon.png) no-repeat -92px -270px; font-style:normal; vertical-align:middle; margin:4px 10px 0 0;}
+.contact .title .txt { display: inline-block; line-height: 41px;}
+.contact .text { width: 100%; font-size: 16px; color: #000;}
+.contact .message { width: 1230px; margin-left: -30px;}
+.contact .message .input { float: left; width: 356px; padding: 0 10px; height: 46px; border: 2px solid #f8f8f8; margin-left: 30px; margin-top: 30px; font-size: 16px; color: #9b9b9b; line-height: 46px; font-family: myFirstFont;}
+.contact .message textarea { border: 2px solid #f8f8f8; margin-left: 30px; width: 1176px; height: 146px; padding: 0 10px; margin-top: 30px; font-size: 16px; color: #9b9b9b; line-height: 46px; font-family: myFirstFont;}
+.contact .message button { width: 280px; height: 46px; text-align: center; font-size: 16px; color: #fff; line-height: 46px; font-family: myFirstFont; margin: 30px 0 0 30px; border: none; background: #ff5842; cursor : pointer;}
